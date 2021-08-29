@@ -12,7 +12,7 @@ let package = Package(
             targets: ["CustomPagesPublishPlugin"]),
     ],
     dependencies: [
-       .package(url: "https://github.com/johnsundell/publish.git", from: "0.8.0"),
+       .package(name: "Publish",url: "https://github.com/johnsundell/publish.git", from: "0.8.0"),
 
     ],
     targets: [
